@@ -1,0 +1,1473 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 400px){
+	body{font-size: 12px;overflow-x: hidden;position: relative;left: 0;}
+	.brandSlider .playIco{ top: 29%; }
+	.down-scroll{display: none !important}
+	.wrapper .container{width: 100%;max-width: 100%}
+	.introSlider .homeSliderContainer{height: auto;background-color: transparent;}
+	.blockContainer .blockTitle{ font-size: 3.5em; }
+	.blockContainer .subHeadTitle{ font-size: 1.5em; margin-bottom: 10px; }
+	.btn-more{font-size: 0.9em;padding: 4px 8px}
+	.mainContainer{ margin-top: 65px }
+	.videoContainer{height: auto;}
+	.homepage_slider{
+	    position: absolute !important;
+	    bottom: 10%;
+	    width: 80%;
+	}
+	.customMenu{background: #000000}
+	.navbar-default .navbar-toggle{border: 0;}
+	.homepage_slider .owl-dots{bottom: 7%}
+	.homeCompanyValue .leftSideValue{clear:both; text-align: right;}
+	.homeCompanyValue .btn-more{display: inline-block;text-align: right;}
+	.homeCompanyValue .blockValues{width: 98%;top: 0; padding: 1em;}
+	.homeCompanyValue .blockContainer .blockText{ font-size: 1.2em }
+	.core-value{margin-top: 10%;}
+	.owl-carousel .owl-nav button.owl-prev,
+	.owl-carousel .owl-nav button.owl-next{
+		background: rgba(37, 37, 37, 0.6);
+		font-size: 2.5rem;
+		width: 30px;
+		height: 59px;
+		line-height: 59px;
+	}
+	.owl-carousel .owl-nav button.owl-prev .fa,
+	.owl-carousel .owl-nav button.owl-next .fa{
+		position: relative;
+		font-size: 30px;
+		color:#ffffff;
+		display: block;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev .fa{
+    left: -9px;
+	}
+	.owl-carousel .owl-nav button.owl-next .fa{
+    right: -9px;
+	}
+
+	.owl-carousel .owl-prev{border-radius: 0 100px 100px 0;}
+	.owl-carousel .owl-next{border-radius: 100px 0 0 100px;}
+
+	.ourBusiness .owl-nav .owl-prev,
+	.ourBusiness .owl-nav .owl-next{
+		top:10%;font-size: 2.5rem;
+	}
+	.ourBusiness{ padding: 15% 0; }
+	.ourBusiness .blockContainer .subHeadTitle{margin-bottom: 20px; }
+	/* .ourBusiness .horiSlideCont{border: 1px solid #dddddd;} */
+
+	.homepage .highLgthCont .highLgthBox{border-top: 1px solid #d2d2d2;border-bottom: 1px solid #ffffff;}
+	.homepage .highLgthCont .highLgthBox .details{border-right: 0;}
+	.videoBoxModal:before { height: 40%; }
+
+	.ourBusiness .container{padding: 0;}
+	.ourBusiness .owl-stage-outer{width: 90%;margin: 0 auto}
+	/*Navigation*/
+	.customToggle{margin: 15px 8px;}
+	.customToggle:hover{background-color: #f5bb0c !important;border-color: #f5bb0c;}
+	.customMenu .customToggle .icon-bar{background-color: #fff;}
+	.blockValues{width: 98%;top: 1em; padding: 1em;}
+	.homepage_slider .caption_title{font-size: 1.4em;}
+	.homepage_slider .caption_text{font-size: 0.7em;}
+
+	.homepage .details .head3Text{font-size: 1.4em;}
+	.homepage .details .head4Text{font-size: 0.5em;}
+
+	.homepage .highLgthCont{margin-bottom: 30px;}
+	.mapMarkers .map-contains .mainHeadTitle{text-align: center;font-size: 4em;}
+	.mapMarkers .maplistUl .maplistLi{display: block}
+
+	/* .ourBusiness .owl-nav .owl-next{right: -6%;}
+	.ourBusiness .owl-nav .owl-prev{left: -6%;} */
+	.owl-carousel .owl-video-play-icon{height: 40px;width: 40px;left: 60%;top: 65%;background-size: cover;}
+	.video-carousel .owl-carousel .item-video{height: 170px;}
+
+	.video-carousel .owl-nav { width: 82%;    bottom: 65%;}
+
+	.video-carousel .fa{font-size: 25px;}
+	.video-carousel .owl-next{right: -11%;}
+	.video-carousel .owl-prev{left: -11%;}
+	.highLgthCont .highLgthBox .details{border: none;}
+	.highLgthCont .companyBlockHistory{position: relative;padding-top: 3%;font-size: 1em;padding-bottom: 3%;}
+	.imgCircle{width: 120px !important;}
+	.imgCircle1{width: 200px;}
+	.ldrshpArea{padding: 20px 0;}
+	.ldrshpArea .padding0{padding-left: 0;}
+	.ldrshpContHeight{height: auto;}
+	.ldrshpContHeight2{height: 220px;width: 100%;}
+	.ldrshpBox .titleHead{font-size: 1em;}
+	.ldrshpBox .titleHead1{font-size: 2em;}
+	.leadership_slider .owl-nav button.owl-prev{left: 0;}
+	.leadership_slider .owl-stage-outer{margin-left: 0;}
+	.contArea{font-size: 1.2em;height: auto;font-family: 'OpenSansLight';}
+	.ldrshpBox span{font-size: 0.7em;margin-bottom: 0;}
+	.ldrshpBox1 span{font-size: 1.2em;margin-bottom: 10px;}
+	.mapMarkers .map-contains{padding-top: 2em;}
+	.mapMarkers .map-holder .pin{font-size: 1em;}
+	.mapMarkers .maplistUl{text-align: center;margin-bottom: 20px;}
+	.mapMarkers .maplistUl .maplistLi .mapText{display: inline-block;}
+	.advertiesment .bannerSec{padding: 0 10px;}
+	.advertiesment .bannerSec .btnSec{right: 4%;}
+	.advertiesment .adverList .iconList{font-size: 1.4em;width: 40px;height: 40px;line-height: 40px;}
+	.advertiesment .adverList{margin: 4% 0 2%;}
+	.advertiesment .adverList .textList{font-size: 1.3em;padding-left: 0.5em;}
+	.history .historyView{top: 8%;}
+	.history .historyList{width: 100%;}
+	.history .historyList li{margin-bottom: 2%;text-align: center;width: 80%;float: left;}
+
+	.history .historyList li:first-child{width: 20%;float: left;padding: 0}
+	.history .historyList li .topText{font-size: 0.7em;}
+	.history .historyList li .bottomText{font-size: 1.5em;}
+	.history .historyList li .text{font-size: 0.7em;line-height: 1.6;}
+	.footer .rpsg_text{width: 175px;}
+	.footer .socialList li{width: 30px;height: 30px;line-height: 30px;}
+	.footer .socialList li a{font-size: 1em}
+	.footer .footer_col{padding-left: 13px;}
+	.footer .footer_col_second{padding-right: 2px;}
+	/*Mobile Menu*/
+	.mobile_menu_inner .customMenu_nav{margin: 0;float: none;}
+	.mobile_menu_inner .customMenu_nav .customMenuItem{font-size: 1.4em;padding: 0.3em 1em;border-bottom: 1px solid #848484;}
+	.mobile_menu_inner .customMenu_nav .customMenuLink{
+		color: rgba(255,255,255,0.6);
+		line-height: 2.4 !important;
+		font-family: 'manrope-light', sans-serif;
+		font-weight:500PX;
+		text-transform: inherit;
+	}
+	.mobile_menu_inner .customMenu_nav .customMenuLink.backBtn{text-align: right;font-size: 2em}
+	.nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
+	.mobile_menu_inner .customMenu_nav .customMenuLink:hover,
+	.mobile_menu_inner .customMenu_nav .customMenuLink:focus,
+	.mobile_menu_inner .customMenu_nav .customMenuLink:active,
+	.customSubMenuItem .customSubMenuLink:hover{background-color: transparent;color: #f5bb0c;}
+	.customSubMenuItem .customSubMenuLink{color: #fcfcfc;}
+	.push-toright{left: -80%;}
+	.pushright-open{right: 0% !important;}
+
+/*Brand*/
+.brandSection .brandAbout .blockTitle{font-size: 2em}
+.brandSection .brandAbout .blockText{text-align: center}
+.brandLogoSec .brandLogoImg{margin: 2%}
+.brandSection .brandAbout .blockValues{width: 100%;padding: 4% 5%;top:-5em}
+.brandViewWebBtnArea{position: relative;bottom: 0;margin-top:17px;: }
+.brandViewWebBtn{ width: 90%;margin: 5px auto}
+	/*About*/
+	.about .years-carousel{width: 100%;top: 47%;}
+	.about .container{padding: 0}
+	.groupInfo_slider .abtSlidTtle{font-size: 1.3rem;margin-bottom:0}
+	.groupInfo_slider .item-text{ font-size: 0.8rem}
+	.groupInfo_slider .owl-nav{z-index: 1;font-size:2.5rem !important;top:23%;}
+	.about .aboutContainer .container{top:15%;}
+	.about .aboutContainer .item_text{font-size: 0.5rem}
+	.about .aboutContainer .caption{padding: 5px; width:65%;    margin-left: 10px;}
+	.about .aboutContainer .item_title{font-size: 0.6rem !important}
+	.about .text-bottom{font-size: 0.9rem !important}
+	.about .awards_slider .awards-item .rightSlider .bulletVScroll {height: 260px;}
+	.about .coreValList .corTitle{font-size: 8px}
+	.about .coreValList .corTitle i {font-size: 9px; }
+	.about .coreValList .corCnt{font-size: 7px;}
+	
+	.about .coreValList .slide6 {margin-top: 36%; }
+	/*media*/
+	.buildingSection .blockText{font-size: 1.4em;line-height: 1.7;}
+
+	.brandFooter .socialList{float: none !important;}
+	.brandFooter .footer_col{text-align: center !important;}
+
+	/*Career Page*/
+	.careerPage .outerTablCell,.careerPage .absolContainer{position: relative;}
+	.careerPage .middleTablCell{display: block;}
+	.careerPage .careerFirstSec,
+	.careerPage .careerSecondSec,
+	.careerPage .careerFourthSec,
+	.careerPage .careerSevenSec{ height: auto; padding: 10% 3%; }
+	.careerPage .container{padding: 0;}
+	.careerPage .careerThirdSec .carSecBox{width:100%;margin: 0 auto;}
+	.careerPage .careerSecondSec .outerTablCell,
+	.careerPage .careerSecondSec .middleTablCell{display: block;position: relative;}
+	.careerPage .careerSecondSec .txtLdrInfo{top:0;position: relative;bottom: 0;margin-top: 30px;}
+	.careerPage .careerThirdSec .subHeadTitle{margin-top: 50px; font-size: 1.7em;    width: 80%;}
+	.careerPage .careerSecondSec .blockTitle{ font-size: 1.9em;}
+	.careerPage .careerSecondSec .blockText,
+	.careerPage .careerFirstSec .blockText,
+	.careerPage .careerSixthSec .caption{ font-size: 1.1em;}
+	.careerPage .careerFiftCont .blockText{font-size: 1.2em;}
+	.careerPage .careerFiftCont .subHeadTitle{margin-top: 20px;}
+	.careerPage .careerSixthSec .carSecImg{width:40%;margin: 0 auto 30px;}
+	.careerPage .careerSevenSec{background-position: 62% 100%;}
+	.careerPage .careerEightSec .carSecImg{width: 20%;margin-top: 20px;}
+	.careerPage .careerFormCont{padding: 20px 5% 0}
+	.careerPage .careerFourthSec .blockText{font-size: 1.8em;    width: 90%;}
+	.footer .socialList li{margin: 0 1px ; width: 30px;   height: 30px; line-height: 30px;}
+	.careerPage .careerFormBox{padding-bottom: 20px;}
+	.careerPage .careerSixthSec .caption:before,.careerPage .careerSixthSec .caption:after{font-size: 5em; display: none;}
+	.careerPage .careerSixthSec .owl-stage,
+	.careerPage .careerSixthSec .caption{width: 90%}
+	.careerPage .modal-dialog{width: 90% !important}
+
+	/*Contact Us*/
+	.contactPage .contactContainer .home_logo_rpsg{width: 70%;}
+	.contactPage .contactContainer .item_title{font-size: 2em;}.contactSecond{height: auto; padding: 10% 0}
+	.contactSecond .absolContainer, .contactSecond .outerTablCell{position: relative;}
+	.contactSecondUl .contactSecondLi{ display: block; width: 100%; border-bottom:1px solid #dddddd; border-top:1px solid #ffffff;}
+	.contactSecondUl .contactSecondLi .h2_title{font-size: 2em;}
+	.contactSecondUl .contactSecondLi p{width: 80%;}
+	#contactForm .modal-dialog{width: 80%;}
+	#contactForm .contactFormTitle{font-size: 1.7em;}
+	#contactForm .messagetextarea{height: auto;}
+	/*community*/
+	.communityPage .communityContainer .item_title{font-size: 1.5em;    margin-bottom: 5px;}
+	.communityPage .blockTitle{margin-bottom: 5px}
+	.communityPage .h2_title{font-size: 1.9em;    font-family: 'manrope-bold', sans-serif;margin-bottom: 10px}
+	.communityPage .txtBusSlide{padding-top: 0}
+	.communityPage .blockText { font-size: 1.1em; }
+	.communityPage .communityContainer .absolContainer{bottom:5%;}
+	.communityPage .communityContainer .caption {
+	width: 100%; }
+	.communityPage .communityContainer .item_text{font-size: 0.8em}
+	.communityFiveSec .colFifthCont { padding: 5% 3% 0;}
+	.communityPage .buildingSlider .h2_caption_text{font-size: 2em}
+	.communityPage .buildingSlider.commonSlider .caption{top:34%;}
+	.communityPage .commonSlider .owl-nav .owl-prev,
+	.communityPage .commonSlider .owl-nav .owl-next {
+	font-size: 2em; }
+	.communityPage .commonSlider .owl-nav .owl-prev{left:-15px}
+	.communityPage .commonSlider .owl-nav .owl-next{right:-15px}
+	.communityPage .buildingSlider.commonSlider .owl-nav .owl-prev{left:0;    top: 38%;}
+		.communityPage .buildingSlider.commonSlider .owl-nav .owl-next{right:0;    top: 38%;}
+	.about .communitySevenSec .h2_title{font-size: 2.5em;}
+
+	.communityPage .communitySecondSec .txtBusSlide{padding-top: 0 !important}
+	.communityPage .twoColCarousel .owl-nav{width:100%; top: 40%;right: 0}
+	/* .communityPage .communityEightSec .buildingSlider.commonSlider .caption{top:4%} */
+	.communityPage .communityEightSec .buildingSlider.commonSlider .h3_title,
+	.communityPage .communityEightSec .buildingSlider.commonSlider .h2_title{margin-bottom: 3px}
+	.communityPage .communityEightSec .buildingSlider.commonSlider .blockText {
+    font-size: 0.9em;
+	}
+	.communityPage .twoColCarousel .owl-nav .owl-prev{
+		    border-radius: 0 100px 100px 0;
+    left: -15px;
+    position: relative;
+		background: rgba(37, 37, 37, 0.6);
+		height: 59px;
+		line-height: 59px;
+	}
+	.communityPage .twoColCarousel .owl-nav .owl-next {
+        border-radius: 100px 0 0 100px;
+    right: -15px;
+    position: relative;
+		background: rgba(37, 37, 37, 0.6);
+		height: 59px;
+		line-height: 59px;
+	}
+	.mediaPage .blockContainer .blockTitle{font-size: 2em !important}
+	.mediaPage {text-align: center;}
+	.mediaPage .moreMedBox{width: 100% !important;height: 275px !important; float: none  !important;display: inline-block !important; margin: 5px 0}
+	.cookie-banner{width: 180px}
+	.brandFooter .socialList li{width: 19% !important; float: left;margin-right:0 !important;height: 33px!important; line-height: 33px !important}
+	/* .brandFooter .footer_col_second{padding-bottom: 20px;} */
+	.brandFooter .socialList{padding: 10px 0 !important;}
+	.socialListBrand{background: rgba(255,255,255,0.4);margin: 5px 0;padding:  0; border: 1px solid #e6e3e3}
+	.socialListBrand .footer_col_second{ border-bottom: 1px solid #e6e3e3 !important}
+	.brandFooter .socialList li i{font-size: 1.6em !important}
+	.footer.brandFooter .socialList li a{font-size: 1em !important}
+	.businessSection .logoSlide .owl-prev{margin-left: -32px;}
+	.businessSection .logoSlide .owl-next{margin-right: -32px}
+	.about .coreValList .corTitle{font-size: 10px}
+	.about .coreValList .corTitle i {font-size: 18px; }
+	.about .coreValList .corCnt{font-size: 8px;}
+	.about .coreValList .slide5 {margin-top: 61%;}
+	.about .coreValList .slide7 {margin-top: 13%;}
+	.about .coreValList .coreSlide{width: 25%}
+	.about .coreValList .slide1 {margin-left: 37%;    margin-top: 0%;}
+	.about .coreValList .slide4 {  margin-left: 50%;  margin-top: 64%;}
+	.about .coreValList .slide6 {margin-left: 6%;margin-top: 39%;}
+	.about .coreValList .slide2 {  margin-top: 11%;}
+}
+/* Our services */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 401px) and (max-width: 639px){
+		body{font-size: 12px;overflow-x: hidden;position: relative;left: 0;}
+		.brandSlider .playIco{ top: 29%; }
+		.videoBoxModal:before { height: 40%; }
+		.down-scroll{display: none !important}
+		.wrapper .container{width: 100%;max-width: 100%}
+		.introSlider .homeSliderContainer{height: auto;background-color: transparent;}
+		.blockContainer .blockTitle{ font-size: 3.5em; }
+		.blockContainer .subHeadTitle{ font-size: 1.5em; margin-bottom: 10px; }
+		.btn-more{font-size: 1em;}
+		.mainContainer{ margin-top: 65px }
+		.videoContainer{height: auto;}
+		.homepage_slider{
+		    position: absolute !important;
+		    bottom: 10%;
+		    width: 80%;
+		}
+		.customMenu{background: #000000}
+		.navbar-default .navbar-toggle{border: 0;}
+		.homepage_slider .owl-dots{bottom: 7%}
+		.homeCompanyValue .leftSideValue{clear:both; text-align: right;}
+		.homeCompanyValue .btn-more{display: inline-block;text-align: right;}
+		.homeCompanyValue .blockValues{width: 98%;top: 0; padding: 1em;}
+		.homeCompanyValue .blockContainer .blockText{ font-size: 1.2em }
+		.owl-carousel .owl-nav button.owl-prev,
+		.owl-carousel .owl-nav button.owl-next{
+			background: rgba(37, 37, 37, 0.6);
+			font-size: 2.5rem;
+			width: 30px;
+			height: 59px;
+			line-height: 59px;
+		}
+		.core-value{margin-top: 10%;}
+		.owl-carousel .owl-nav button.owl-prev .fa,
+		.owl-carousel .owl-nav button.owl-next .fa{
+			position: relative;
+			font-size: 30px;
+			color:#ffffff;
+			display: block;
+		}
+		.owl-carousel .owl-prev{border-radius: 0 100px 100px 0;}
+		.owl-carousel .owl-next{border-radius: 100px 0 0 100px;}
+
+		.ourBusiness .owl-nav .owl-prev,
+		.ourBusiness .owl-nav .owl-next{
+			top:10%;font-size: 2.5rem;
+		}
+		.ourBusiness{ padding: 15% 0; }
+		.ourBusiness .blockContainer .subHeadTitle{margin-bottom: 20px; }
+		/* .ourBusiness .horiSlideCont{border: 1px solid #dddddd;} */
+
+		.homepage .highLgthCont .highLgthBox{border-top: 1px solid #d2d2d2;border-bottom: 1px solid #ffffff;}
+		.homepage .highLgthCont .highLgthBox .details{border-right: 0}
+		.ourBusiness .container{padding: 0;}
+		.ourBusiness .owl-stage-outer{width: 90%;margin: 0 auto}
+		/*Navigation*/
+		.customToggle{margin: 15px 8px;}
+		.customToggle:hover{background-color: #f5bb0c !important;border-color: #f5bb0c;}
+		.customMenu .customToggle .icon-bar{background-color: #fff;}
+		.blockValues{width: 90%;top: -2em;}
+		.introSlider .homeSliderContainer{height: auto;background-color: transparent;}
+		.homepage_slider .caption_title{font-size: 1.4em;}
+		.homepage_slider .caption_text{font-size: 0.7em;}
+		.ourBusiness .owl-nav .owl-prev, .ourBusiness .owl-nav .owl-next{top: 30%;font-size: 2.5rem !important;}
+		.ourBusiness .owl-nav .owl-next{right: -3%;}
+		.ourBusiness .owl-nav .owl-prev{left: -3%;}
+		.owl-carousel .owl-video-play-icon{height: 40px;width: 40px;left: 60%;top: 65%;background-size: cover;}
+		.video-carousel .owl-carousel .item-video{height: 130px;}
+		.video-carousel .fa{font-size: 25px;}
+		.homepage .video-carousel .owl-nav{width: 100%;bottom: 72%}
+		.homepage .video-carousel .owl-next{right: 0%;}
+		.homepage .video-carousel .owl-prev{left: 0%;}
+			.homepage .highLgthCont .highLgthBox{border-top: 1px solid #d2d2d2;border-bottom: 1px solid #ffffff;}
+			.homepage .highLgthCont .highLgthBox .details{border-right: 0}
+		.highLgthCont .highLgthBox .details{border: none;}
+		.highLgthCont .companyBlockHistory{position: relative;padding-top: 3%;font-size: 1em;padding-bottom: 3%;}
+		.imgCircle{width: 120px !important;}
+		.imgCircle1{width: 200px;}
+		.ldrshpContHeight{height: auto;}
+		.ldrshpContHeight2{height: 220px;width: 100%;}
+		.ldrshpBox .titleHead{font-size: 1em;}
+		.ldrshpBox .titleHead1{font-size: 2em;}
+		.contArea{font-size: 1.2em;height: auto;font-family: 'OpenSansLight';}
+		.ldrshpBox span{font-size: 0.8em;margin-bottom: 0;}
+		.ldrshpBox1 span{font-size: 1.2em;margin-bottom: 10px;}
+		.mapMarkers .map-contains{padding-top: 2em;}
+		.mapMarkers .maplistUl{text-align: center;margin-bottom: 20px;}
+		.mapMarkers .map-contains .mainHeadTitle{font-size: 4em;text-align: center;}
+		.mapMarkers .maplistUl .maplistLi .mapHead{font-size: 2.5em;}
+		.mapMarkers .maplistUl .maplistLi{display: block;}
+		.mapMarkers .maplistUl .maplistLi .mapText{display: inline-block;}
+		.mapMarkers .map-holder .pin{font-size: 1em;}
+		.buildingSection .blockText{font-size: 1.4em;line-height: 1.7;}
+		.leadership_slider .owl-stage-outer{margin-left: 0;}
+		.leadership_slider .owl-nav button.owl-prev{left: 0;}
+		.advertiesment .bannerSec{padding: 0 10px;}
+		.advertiesment .bannerSec .btnSec{right: 4%;}
+		.advertiesment .adverList .iconList{font-size: 1.4em;width: 40px;height: 40px;line-height: 40px;}
+		.advertiesment .adverList{margin: 4% 0 2%;}
+		.advertiesment .adverList .textList{font-size: 1.3em;padding-left: 0.5em;}
+		.history .historyView{top: 10%;}
+		.history .historyList{width: 100%;}
+		.history .historyList li{margin-bottom: 2%;text-align: center;width: 80%;float: left;}
+
+		.history .historyList li:first-child{width: 20%;float: left;padding: 0}
+		.history .historyList li .topText{font-size: 0.7em;}
+		.history .historyList li .bottomText{font-size: 1.5em;}
+		.history .historyList li .text{font-size: 0.7em;line-height: 1.6;}
+		.footer .rpsg_text{width: 175px;}
+		.footer .socialList li{width: 30px;height: 30px;line-height: 30px;margin-right:0.5em}
+		.footer .socialList li a{font-size: 1.2em}
+
+		/*Brand*/
+		.brandSection .brandAbout .blockTitle{font-size: 2em}
+		.brandSection .brandAbout .blockText{text-align: center}
+		.brandLogoSec .brandLogoImg{margin: 2%}
+		.brandSection .brandAbout .blockValues{width: 100%;padding: 4% 5%;top:-5em}
+		.brandViewWebBtnArea{position: relative;bottom: 0;margin-top:17px;: }
+		.brandViewWebBtn{ width: 90%;margin: 5px auto}
+
+		/*About*/
+		.about .years-carousel{width: 100%;top: 47%;}
+		.about .container{padding: 0}
+		.groupInfo_slider .abtSlidTtle{font-size: 1.6rem}
+		.groupInfo_slider .item-text{ font-size: 0.8rem}
+		.groupInfo_slider .owl-nav{z-index: 2;}
+		.about .aboutContainer .container{top:5%;}
+		.about .aboutContainer .item_text{font-size: 0.7rem}
+		.about .awards_slider .awards-item .rightSlider .bulletVScroll {height: 260px;}
+		.about .aboutContainer .caption{padding: 5px; width:65%;    margin-left: 10px;}
+		.about .aboutContainer .item_title{font-size: 1rem !important}
+
+		/*Mobile Menu*/
+		.mobile_menu_inner .customMenu_nav{margin: 0;float: none;}
+		.mobile_menu_inner .customMenu_nav .customMenuItem{font-size: 1.4em;padding: 0.3em 1em;border-bottom: 1px solid #848484;}
+		.mobile_menu_inner .customMenu_nav .customMenuItem.active .customMenuLink{color: #FF0000;font-family: 'manrope-extrabold', sans-serif;}
+		.mobile_menu_inner .customMenu_nav .customMenuLink{
+			color: rgba(255,255,255,0.6);
+			line-height: 1.4 !important;
+			font-family: 'manrope-light', sans-serif;
+			font-weight: normal;
+			text-transform: inherit;
+		}
+		.mobile_menu_inner .customMenu_nav .customMenuLink.backBtn{text-align: right;font-size: 2em;}
+		.nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
+		.mobile_menu_inner .customMenu_nav .customMenuLink:hover,
+		.mobile_menu_inner .customMenu_nav .customMenuLink:focus,
+		.mobile_menu_inner .customMenu_nav .customMenuLink:active,
+		.customSubMenuItem .customSubMenuLink:hover{background-color: transparent;color: #f5bb0c;}
+		.customSubMenuItem .customSubMenuLink{color: #fcfcfc;}
+		.push-toright{left: -80%;}
+		.pushright-open{right: 0% !important;}
+		/*media*/
+		.brandFooter .socialList{float: none !important;}
+		.brandFooter .footer_col{text-align: center !important;}
+		.footer .socialList li a { font-size: 1.6em !important; }
+
+		/*Career Page*/
+		.careerPage .outerTablCell,.careerPage .absolContainer{position: relative;}
+		.careerPage .middleTablCell{display: block;}
+		.careerPage .careerFirstSec,
+		.careerPage .careerSecondSec,
+		.careerPage .careerFourthSec,
+		.careerPage .careerSevenSec{ height: auto; padding: 10% 3%; }
+		.careerPage .container{padding: 0;}
+		.careerPage .careerThirdSec .carSecBox{width:100%;margin: 0 auto;}
+		.careerPage .careerSecondSec .outerTablCell,
+		.careerPage .careerSecondSec .middleTablCell{display: block;position: relative;}
+		.careerPage .careerSecondSec .txtLdrInfo{top:0;position: relative;bottom: 0;margin-top: 30px;}
+		.careerPage .careerThirdSec .subHeadTitle{margin-top: 50px; font-size: 1.7em;    width: 80%;}
+		.careerPage .careerSecondSec .blockTitle{ font-size: 1.9em;}
+		.careerPage .careerSecondSec .blockText,
+		.careerPage .careerFirstSec .blockText,
+		.careerPage .careerSixthSec .caption{ font-size: 1.1em;}
+		.careerPage .careerFiftCont .blockText{font-size: 1.2em;}
+		.careerPage .careerFiftCont .subHeadTitle{margin-top: 20px;}
+		.careerPage .careerSixthSec .carSecImg{width:40%;margin: 0 auto 30px;}
+		.careerPage .careerSevenSec{background-position: 62% 100%;}
+		.careerPage .careerEightSec .carSecImg{width: 20%;margin-top: 20px;}
+		.careerPage .careerFormCont{padding: 20px 5% 0}
+		.careerPage .careerFourthSec .blockText{font-size: 1.8em;    width: 90%;}
+		.careerPage .careerFormBox{padding-bottom: 20px;}
+		.careerPage .careerSixthSec .caption:before,.careerPage .careerSixthSec .caption:after{font-size: 5em; display: none;}
+		.careerPage .careerSixthSec .owl-stage,
+		.careerPage .careerSixthSec .caption{width: 90%}
+		.careerPage .modal-dialog{width: 90% !important}
+
+		/*Contact Us*/
+		.contactPage .contactContainer .home_logo_rpsg{width: 70%;}
+		.contactPage .contactContainer .item_title{font-size: 2em;}
+		.contactSecond{height: auto; padding: 10% 0}
+		.contactSecond .absolContainer, .contactSecond .outerTablCell{position: relative;}
+		.contactSecondUl .contactSecondLi{ display: block; width: 100%; border-bottom:1px solid #dddddd; border-top:1px solid #ffffff;}
+		.contactSecondUl .contactSecondLi .h2_title{font-size: 2em;}
+		.contactSecondUl .contactSecondLi p{width: 80%;}
+		#contactForm .modal-dialog{width: 80%;}
+		#contactForm .contactFormTitle{font-size: 1.7em;}
+		#contactForm .messagetextarea{height: auto;}
+		/*community*/
+		.communityPage .communityContainer .item_title{font-size: 2em;    margin-bottom: 5px;}
+		.communityPage .blockTitle{margin-bottom: 5px}
+		.communityPage .h2_title{font-size: 1.9em;    font-family: 'manrope-bold', sans-serif;margin-bottom: 10px}
+		.communityPage .txtBusSlide{padding-top: 0}
+		.communityPage .blockText { font-size: 1.1em; }
+		.communityPage .communityContainer .absolContainer{bottom:5%;}
+		.communityPage .communityContainer .caption {
+		width: 100%; }
+		.communityPage .communityFiveSec .colFifthCont { padding: 5% 3% 0;}
+		.communityPage .buildingSlider .h2_caption_text{font-size: 2em}
+		.communityPage .buildingSlider.commonSlider .caption{top:34%;}
+		.communityPage .commonSlider .owl-nav .owl-prev,
+		.communityPage .commonSlider .owl-nav .owl-next {
+		font-size: 2em; }
+		.communityPage .commonSlider .owl-nav .owl-prev{left:-15px}
+		.communityPage .commonSlider .owl-nav .owl-next{right:-15px}
+		.communityPage .buildingSlider.commonSlider .owl-nav .owl-prev{left:0;    top: 38%;}
+			.communityPage .buildingSlider.commonSlider .owl-nav .owl-next{right:0;    top: 38%;}
+		.about .communitySevenSec .h2_title{font-size: 2.5em}
+
+		.communityPage .communitySecondSec .txtBusSlide{padding-top: 0 !important}
+		.communityPage .twoColCarousel .owl-nav{width:100%; top: 40%;right: 0}
+		/* .communityPage .communityEightSec .buildingSlider.commonSlider .caption{top:4%} */
+		.communityPage .communityEightSec .buildingSlider.commonSlider .h3_title,
+		.communityPage .communityEightSec .buildingSlider.commonSlider .h2_title{margin-bottom: 3px}
+		.communityPage .communityEightSec .buildingSlider.commonSlider .blockText {
+	    font-size: 0.9em;
+		}
+		.communityPage .twoColCarousel .owl-nav .owl-prev{
+			    border-radius: 0 100px 100px 0;
+	    left: -15px;
+	    position: relative;
+			background: rgba(37, 37, 37, 0.6);
+			height: 59px;
+			line-height: 59px;
+		}
+		.communityPage .twoColCarousel .owl-nav .owl-next {
+	        border-radius: 100px 0 0 100px;
+	    right: -15px;
+	    position: relative;
+			background: rgba(37, 37, 37, 0.6);
+			height: 59px;
+			line-height: 59px;
+	}
+	.mediaPage .blockContainer .blockTitle{font-size: 2em !important}
+	.mediaPage {text-align: center;}
+	.mediaPage .moreMedBox{width: 100% !important;height: 275px !important; float: none  !important;display: inline-block !important; margin: 5px 0}
+	.brandFooter .socialList li{width: 20%; float: left;margin-right:0 !important;height: 33px!important; line-height: 33px !important}
+	/* .brandFooter .footer_col_second{padding-bottom: 20px;} */
+	.brandFooter .socialList{padding: 10px 0 !important;}
+	.socialListBrand{background: rgba(255,255,255,0.4);margin: 5px 0;padding:  0; border: 1px solid #e6e3e3}
+	.socialListBrand .footer_col_second{ border-bottom: 1px solid #e6e3e3 !important}
+	.brandFooter .socialList li i{font-size: 1.6em !important}
+	.footer.brandFooter .socialList li a{font-size: 1em !important}
+	.about .coreValList .corTitle{font-size: 10px}
+	.about .coreValList .corTitle i {font-size: 18px; }
+	.about .coreValList .corCnt{font-size: 8px;}
+	.about .coreValList .slide5 {margin-top: 61%;}
+	.about .coreValList .slide7 {margin-top: 13%;}
+	.about .coreValList .coreSlide{width: 25%}
+	.about .coreValList .slide1 {margin-left: 37%;    margin-top: 0%;}
+	.about .coreValList .slide4 {  margin-left: 50%;  margin-top: 64%;}
+	.about .coreValList .slide6 {margin-left: 6%;margin-top: 39%;}
+	.about .coreValList .slide2 {  margin-top: 11%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 640px) and (max-width: 767px){
+.videoBoxModal:before { height: 40%; }
+.down-scroll{display: none !important}
+	.videoContainer{height: auto;}
+	.homepage_slider{
+	    position: absolute !important;
+	    bottom: 10%;
+	    width: 80%;
+	}
+	.core-value{margin-top: 10%;}
+	.owl-carousel .owl-nav button.owl-prev,
+	.owl-carousel .owl-nav button.owl-next{
+		background: rgba(37, 37, 37, 0.6);
+		font-size: 2.5rem;
+		width: 30px;
+		height: 59px;
+		line-height: 59px;
+	}
+	.owl-carousel .owl-nav button.owl-prev .fa,
+	.owl-carousel .owl-nav button.owl-next .fa{
+		position: relative;
+		font-size: 30px;
+		color:#ffffff;
+		display: block;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev .fa{
+    left: -9px;
+	}
+	.owl-carousel .owl-nav button.owl-next .fa{
+    right: -9px;
+	}
+
+	.owl-carousel .owl-prev{border-radius: 0 100px 100px 0;}
+	.owl-carousel .owl-next{border-radius: 100px 0 0 100px;}
+	.leadership_slider .owl-nav button.owl-prev{left: 0;}
+	/*Mobile Menu*/
+	.introSlider .homeSliderContainer{height: auto;background-color: transparent;}
+	.mobile_menu_inner .customMenu_nav{margin: 0;float: none;}
+	.mobile_menu_inner .customMenu_nav .customMenuItem{font-size: 1.4em;padding: 0.3em 1em;border-bottom: 1px solid #848484;}
+	.mobile_menu_inner .customMenu_nav .customMenuItem.active .customMenuLink{color: #f5bb0c;font-family: 'manrope-extrabold', sans-serif;}
+	.mobile_menu_inner .customMenu_nav .customMenuLink{
+		color: rgba(255,255,255,0.6);
+		line-height: 1.4 !important;
+		font-family: 'manrope-light', sans-serif;
+		font-weight: normal;
+		text-transform: inherit;
+	}
+	.mobile_menu_inner .customMenu_nav .customMenuLink.backBtn{text-align: right;font-size: 2em;}
+	.nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
+	.mobile_menu_inner .customMenu_nav .customMenuLink:hover,
+	.mobile_menu_inner .customMenu_nav .customMenuLink:focus,
+	.mobile_menu_inner .customMenu_nav .customMenuLink:active,
+	.customSubMenuItem .customSubMenuLink:hover{background-color: transparent;color: #f5bb0c;}
+	.customSubMenuItem .customSubMenuLink{color: #fcfcfc;}
+	.push-toright{left: -80%;}
+	.pushright-open{right: 0% !important;}
+	.leadership_slider .owl-stage-outer{margin-left: 0}
+	.ldrshpContHeight2{ height: 350px; width: 314px; }
+	.ldrshpContHeight{height: 580px}
+	.contLink{margin-top: 0;font-size: 1.5em;}
+	.ldrshpBox p{font-size: 1.5em;padding: 0;}
+	.ldrshpArea .imgCircle{width: 220px !important;}
+	.ldrshpBox .titleHead{font-size: 1.5em;margin-top: 10px;}
+	.ldrshpBox span{font-size: 1.4em}
+	.communityPage .communitySecondSec .txtBusSlide{padding-top: 0 !important}
+
+	.history .historyList li{margin-bottom: 2%;text-align: center;width: 80%;float: left;}
+
+	.history .historyList li:first-child{width: 20%;float: left;padding: 0}
+	.history .historyList li .topText{font-size: 1em;}
+	.history .historyList li .bottomText{font-size: 2em;}
+	.history .historyList li .text{font-size: 0.7em;line-height: 1.6;}
+	/*Career Page*/
+	.careerPage .careerFirstSec{height: 80vh}
+	.careerPage .careerSecondSec{ height: auto; padding: 10% 3%; }
+	.careerPage .careerThirdSec .carSecBox{width:70%;margin: 0 auto;}
+	.careerPage .careerSecondSec .outerTablCell,
+	.careerPage .careerSecondSec .middleTablCell{display: block;position: relative;}
+	.careerPage .careerSecondSec .txtLdrInfo{top:0;position: relative;bottom: 0;margin-top: 30px;}
+	.careerPage .careerThirdSec .subHeadTitle{margin-top: 50px; font-size: 1.7em;}
+	.careerPage .careerSecondSec .blockTitle{ font-size: 1.9em;}
+	.careerPage .careerSecondSec .blockText,
+	.careerPage .careerFirstSec .blockText,
+	.careerPage .careerSixthSec .caption{ font-size: 1.1em;}
+	.careerPage .careerFiftCont .blockText{font-size: 1.2em;}
+	.careerPage .careerFirstSec .txtLdrInfo{margin-bottom: 15px;    font-size: 2.8em;}
+	.careerPage .careerFiftCont .subHeadTitle{margin-top: 20px;}
+	.careerPage .careerSixthSec .carSecImg{width:40%;margin: 0 auto 30px;}
+	.careerPage .careerSevenSec{ height: 426px;    background-position: 60% 100%;}
+	.careerPage .careerEightSec .carSecImg{width: 20%;margin-top: 20px;}
+	.careerPage .careerFormCont{padding: 20px 5% 0}
+	.careerPage .careerFourthSec .blockText{font-size: 2.2em}
+	.careerPage .careerFourthSec{height: 500px;}
+	.footer .socialList li{margin: 0; width: 50px;   height: 50px; line-height: 50px;}
+	.careerPage .careerFormBox{padding-bottom: 20px;}
+
+	/*Brand*/
+	.brandSection .brandAbout .blockTitle{font-size: 2em}
+	.brandSection .brandAbout .blockText{text-align: center}
+	.brandLogoSec .brandLogoImg{margin: 2%}
+	.brandSection .brandAbout .blockValues{width: 100%;padding: 4% 5% 9%;top:-5em}
+
+	.brandViewWebBtn{ width: 30%;margin: 5px 15px}
+
+	/*Contact Us*/
+	.contactSecond{height: auto; padding: 10% 0}
+	.contactSecond .absolContainer, .contactSecond .outerTablCell{position: relative;}
+	.contactPage .contactContainer .home_logo_rpsg{width: 70%;}
+	.contactPage .contactContainer .item_title{font-size: 2em;}
+	.contactSecondUl .contactSecondLi{ display: block; width: 100%; border-bottom:1px solid #dddddd; border-top:1px solid #ffffff;}
+	.contactSecondUl .contactSecondLi .h2_title{font-size: 2em;}
+	.contactSecondUl .contactSecondLi p{width: 80%;}
+	#contactForm .modal-dialog{width: 80%;}
+	#contactForm .contactFormTitle{font-size: 1.7em;}
+	#contactForm .messagetextarea{height: auto;}
+
+	/*community*/
+	.communityPage .communityContainer .item_title{font-size: 2em;    margin-bottom: 5px;}
+	.communityPage .blockTitle{margin-bottom: 5px}
+	.communityPage .h2_title{font-size: 1.9em;    font-family: 'manrope-bold', sans-serif;}
+	.communityPage .txtBusSlide{padding-top: 0}
+	.communityPage .blockText { font-size: 1.1em; }
+	.communityPage .communityContainer .absolContainer{bottom:5%;}
+	.communityPage .communityContainer .caption {
+	width: 73%; }
+	.communityPage .communityFiveSec .colFifthCont { padding: 5% 3% 0;}
+	.communityPage .buildingSlider .h2_caption_text{font-size: 2em}
+	.communityPage .buildingSlider.commonSlider .caption{top:34%;}
+	.communityPage .commonSlider .owl-nav .owl-prev,
+	.communityPage .commonSlider .owl-nav .owl-next {
+	font-size: 2em; }
+	.communityPage .commonSlider .owl-nav .owl-prev{left:-15px}
+	.communityPage .commonSlider .owl-nav .owl-next{right:-15px}
+	.communityPage .buildingSlider.commonSlider .owl-nav .owl-prev{left:0;    top: 38%;}
+		.communityPage .buildingSlider.commonSlider .owl-nav .owl-next{right:0;    top: 38%;}
+	.about .communitySevenSec .h2_title{font-size: 2.5em}
+
+
+	.communityPage .twoColCarousel .owl-nav{width:100%; top: 40%;right: 0}
+	/* .communityPage .communityEightSec .buildingSlider.commonSlider .caption{top:13%} */
+	.communityPage .communityEightSec .buildingSlider.commonSlider .blockText {
+    font-size: 0.9em;
+	}
+	.communityPage .twoColCarousel .owl-nav .owl-prev{
+		    border-radius: 0 100px 100px 0;
+    left: -15px;
+    position: relative;
+		background: rgba(37, 37, 37, 0.6);
+		height: 59px;
+		line-height: 59px;
+	}
+	.communityPage .twoColCarousel .owl-nav .owl-next {
+        border-radius: 100px 0 0 100px;
+	    right: -15px;
+	    position: relative;
+		background: rgba(37, 37, 37, 0.6);
+		height: 59px;
+		line-height: 59px;
+	}
+	.communityPage .owl-carousel .owl-nav button.owl-prev,
+	.communityPage .owl-carousel .owl-nav button.owl-next{
+		background: rgba(37, 37, 37, 0.6);
+		font-size: 2.5rem;
+		width: 30px;
+		height: 59px;
+		line-height: 59px;
+	}
+
+	.communityPage .owl-carousel .owl-nav button.owl-prev .fa,
+	.communityPage .owl-carousel .owl-nav button.owl-next .fa{
+		position: relative;
+		font-size: 30px;
+		color:#ffffff;
+		display: block;
+	}
+
+	.communityPage .owl-carousel .owl-nav button.owl-prev .fa{
+    left: -4px;
+	}
+	.communityPage .owl-carousel .owl-nav button.owl-next .fa{
+    right: -4px;
+	}
+
+	.communityPage .owl-carousel .owl-prev{border-radius: 0 100px 100px 0;}
+	.communityPage .owl-carousel .owl-next{border-radius: 100px 0 0 100px;}
+
+			/*About*/
+			.about .years-carousel{width: 100%;top: 47%;}
+			.about .container{padding: 0}
+			.groupInfo_slider .abtSlidTtle{font-size: 1.6rem}
+			.groupInfo_slider .item-text{ font-size: 0.8rem}
+			.groupInfo_slider .owl-nav{z-index: 2;}
+			.about .aboutContainer .container{top:10%;}
+			.about .aboutContainer .item_text{font-size: 0.7rem}
+			.about .awards_slider .awards-item .rightSlider .bulletVScroll {height: 260px;}
+
+			.brandFooter .socialList li{width: 20%; float: left;margin-right:0 !important;height: 33px!important; line-height: 33px !important}
+			/* .brandFooter .footer_col_second{padding-bottom: 20px;} */
+			.brandFooter .socialList{padding: 10px 0 !important;}
+			.socialListBrand{background: rgba(255,255,255,0.4);margin: 5px 0;padding:  0; border: 1px solid #e6e3e3}
+			.socialListBrand .footer_col_second{ border-bottom: 1px solid #e6e3e3 !important}
+			.brandFooter .socialList li i{font-size: 1.6em !important}
+			.footer.brandFooter .socialList li a{font-size: 1em !important}
+			.about .coreValList .corTitle{font-size: 10px}
+			.about .coreValList .corTitle i {font-size: 18px; }
+			.about .coreValList .corCnt{font-size: 8px;}
+			
+			.about .coreValList .slide5 {margin-top: 61%;}
+			.about .coreValList .slide7 {margin-top: 13%;}
+			.about .coreValList .coreSlide{width: 25%}
+			.about .coreValList .slide1 {margin-left: 37%;    margin-top: 0%;}
+			.about .coreValList .slide4 {  margin-left: 50%;  margin-top: 64%;}
+			.about .coreValList .slide6 {margin-left: 6%;margin-top: 39%;}
+			.about .coreValList .slide2 {  margin-top: 11%;}
+}
+
+/* mobile screen 320 to 767 */
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.homepage .ourBusiness .owl-nav .owl-prev,
+	.homepage .ourBusiness .owl-nav .owl-next{ top:9%; }
+	.homepage .ourBusiness .owl-nav .owl-prev { left: -3%; }
+	.homepage .ourBusiness .owl-nav .owl-next {   right: -3%; }
+	.ourBusiness .owl-stage-outer{width: auto}
+	.homepage .ourBusiness .item img{width: auto;}
+	.advertiesment .owl-dots{bottom: -8%}
+	.advertiesment .owl-dot{    height: 1px;   width: 20px;}
+		.about .communitySevenSec .mobSpace{padding-bottom: 30px;}
+		.careerPage .careerSecondSec .specificScreen{display: block;}
+		.careerPage .careerSecondSec{padding-bottom: 0 !important}
+		.communityPage .twoColCarousel .owl-nav .owl-prev{left: 0}
+		.communityPage .twoColCarousel .owl-nav .owl-next{right: 0}
+		.mediaPage .gallery_slider .owl-nav .fa{background: none;padding: 0}
+		.mediaPage .gallery_slider .owl-nav button.owl-prev{left: -7%}
+		.mediaPage .gallery_slider .owl-nav button.owl-next{right: -7%}
+		
+	/* .buildingSection,.businessSection .section,.about,.investor #second,.investor #third,.investor #fifth,
+	.investor .investorParal,.leadershipPage .leadershipOne,.leadershipPage .leadershipTwo,.careerPage .section,
+	.contactSecond{
+		background-attachment: scroll;
+	} */
+	.commonSection .tieup_maindiv{
+		display: none;
+	}
+	.careerPage .experienceColBlk .expNoYear,
+	.careerPage .experienceColBlk .expNoMnth{
+	float: none;
+	padding: 0 0;
+	width: 100%
+	}
+	.careerPage .experienceColBlk .expNoYear{margin-bottom: 34px;}
+
+	.careerFormCont .form-group{margin-bottom: 0;}
+	.careerFormCont .form-control, .careerFormCont .careerUploadBtn{margin-bottom: 20px;}
+	.careerFormCont .input-group .form-control{margin-bottom: 0px;}
+	.careerFormCont .input-group{margin-bottom: 20px;}
+	.careerFormCont .table td{padding: 0;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) and (orientation : portrait){
+	body{font-size: 10px;}
+	.blockContainer .blockBtn{font-size: 1em;}
+	.customMenu .customMenuItem{padding: 0;}
+	.blockValues{width: 90%;}
+	.push-toright{left: -80%;}
+	.pushright-open{right: 0% !important;}
+	.highLgthCont .highLgthBox .details{font-size: 0.6em;}
+	.highLgthCont .pictureGroup{margin-top: 9%;}
+	.highLgthCont .companyBlockHistory{top: -13%;font-size: 1.2em;}
+	.ldrshpBox .imgCircle{width: 100px !important;}
+	.leadership_slider .owl-nav button.owl-prev{left: 0; color:#ffffff;}
+	.leadership_slider .owl-nav button.owl-next{right: -1%; color:#ffffff;}
+	.leadership_slider .owl-stage-outer{margin-left: 2%}
+	.ldrshpContHeight{height: 430px;}
+	.ldrshpContHeight2{height: 210px; width: 175px}
+	.mCSB_container{margin-right: 20px;}
+	.video-carousel .owl-carousel .item-video{height: 250px;}
+	.owl-carousel .owl-video-play-icon{height: 50px;width: 50px;left: 55%;top: 55%;background-size: cover;}
+	.video-carousel .fa{font-size: 30px;}
+	.video-carousel .owl-next{right: -7%;}
+	.video-carousel .owl-prev{left: -7%;}
+	.mapMarkers .map-contains{padding-top: 2em;}
+	.mapMarkers .maplistUl .maplistLi .mapHead{font-size: 2.5em;}
+	.advertiesment .adverList .iconList{font-size: 1.5em;width: 50px;height: 50px;line-height: 50px;}
+	.advertiesment .adverList .textList{padding-left: 0.6em;}
+	.footer .socialList li{width: 40px;height: 40px;line-height: 40px;}
+	.footer .socialList li a{font-size: 1.2em;}
+	.footer .rpsg_text{width: 175px;}
+	.ldrshpContHeight .contLink{margin-top: 0}
+	/*Career Page*/
+	/*Career Page*/
+	.careerPage .careerFirstSec{height: 80vh}
+	.careerPage .careerSecondSec{ height: auto; padding: 10% 3%; }
+	.careerPage .careerThirdSec .carSecBox{width:70%;margin: 0 auto;}
+	.careerPage .careerSecondSec .outerTablCell,
+	.careerPage .careerSecondSec .middleTablCell{display: block;position: relative;}
+	.careerPage .careerSecondSec .txtLdrInfo{top:0;position: relative;bottom: 0;margin-top: 30px;}
+	.careerPage .careerThirdSec .subHeadTitle{margin-top: 50px; font-size: 1.7em;}
+	.careerPage .careerSecondSec .blockTitle{ font-size: 1.9em;}
+	.careerPage .careerSecondSec .blockText,
+	.careerPage .careerFirstSec .blockText,
+	.careerPage .careerSixthSec .caption{ font-size: 1.1em;}
+	.careerPage .careerFiftCont .blockText{font-size: 1.2em;}
+	.careerPage .careerFirstSec .txtLdrInfo{margin-bottom: 15px;    font-size: 2.8em;}
+	.careerPage .careerFiftCont .subHeadTitle{margin-top: 20px;}
+	.careerPage .careerSixthSec .carSecImg{width:40%;margin: 0 auto 30px;}
+	.careerPage .careerSevenSec{ height: 426px;    background-position: 60% 100%;}
+	.careerPage .careerEightSec .carSecImg{width: 20%;margin-top: 20px;}
+	.careerPage .careerFormCont{padding: 20px 5% 0}
+	.careerPage .careerFourthSec .blockText{font-size: 2.2em}
+	.careerPage .careerFourthSec{height: 500px;}
+	.footer .socialList li{margin: 0; width: 50px;   height: 50px; line-height: 50px;}
+
+	/*community*/
+	.communityPage .communityContainer .item_title{font-size: 2em;    margin-bottom: 5px;}
+	.communityPage .blockTitle{margin-bottom: 5px}
+	.communityPage .h2_title{font-size: 1.9em;    font-family: 'manrope-bold', sans-serif;}
+	.communityPage .txtBusSlide{padding-top: 0}
+	.communityPage .blockText { font-size: 1.1em; }
+	.communityPage .communityContainer .absolContainer{bottom:5%;}
+	.communityPage .communityContainer .caption {
+	width: 73%; }
+	.communityPage .communityFiveSec .colFifthCont { padding: 5% 3% 0;}
+	.communityPage .buildingSlider .h2_caption_text{font-size: 2em}
+	.communityPage .buildingSlider.commonSlider .caption{top:34%;}
+	.communityPage .commonSlider .owl-nav .owl-prev,
+	.communityPage .commonSlider .owl-nav .owl-next {
+	font-size: 2em; }
+	/* .communityPage .communityEightSec .buildingSlider.commonSlider .caption{top:6%} */
+	.communityPage .commonSlider .owl-nav .owl-prev{left:-10px}
+	.communityPage .commonSlider .owl-nav .owl-next{right:-10px}
+	.about .communitySevenSec .h2_title{font-size: 2.5em}
+
+	/*Brand*/;
+	.brandSection .brandAbout .blockTitle{font-size: 2em}
+	.brandSection .brandAbout .blockText{text-align: center !important;padding: 0 0 50px !important;}
+	.brandSection .brandAbout .blockValues{width: 100%;padding: 4% 5% 9%;top:-5em}
+
+	.brandViewWebBtn{ width: 30%;margin: 5px 15px}
+	/*about us*/
+	.about .years span{top:4px !important;}
+	.about .years span.endDot{top:-6px !important}
+	.about .core_values .item .overlay-value{padding-top: 37%}
+	.about .text-top{margin-top: 0 !important;}
+	.about .aboutContainer .container{top:15%;}
+	.groupInfo_slider .owl-nav{top:27%;font-size: 3rem}
+	.about .awards_slider .owl-nav{top:27% !important}
+	.blockContainer .subHeadTitle{font-size: 1.5rem}
+	.groupInfo_slider .item-text{font-size: 1rem}
+	.about .core_values .owl-dots{margin-bottom: 2% !important}
+	.about #seventh{padding-bottom: 15% !important }
+	.about .awards_slider .awards-item .rightSlider .bulletVScroll {height: 260px;}
+	.history .historyView{top:12%}
+	.history .historyList{width: 100%}
+	.leadership_slider .owl-stage-outer{margin-left: 2%}
+
+	.investor .investorContainer .absolContainer{bottom: 10% !important}
+	.investor .investorContainer .caption{width: 55% !important; margin-left: 5%}
+	.investor .investorContainer .item_title{font-size: 1.2em !important}
+	.investor .investorContainer .glowLightFirst{bottom: -15% !important}
+	.careerPage .careerSecondSec .specificScreen{display: block;}
+	.careerPage .careerSecondSec{padding-bottom: 0 !important;background-image:none}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.push-toright{left: -80%;}
+	.pushright-open{right: 0% !important;}
+	/*Career Page*/
+	.careerPage .careerFirstSec{height: 80vh}
+	.careerPage .careerSecondSec{ height: auto; padding: 10% 3%; }
+	.careerPage .careerThirdSec .carSecBox{width:70%;margin: 0 auto;}
+	.careerPage .careerSecondSec .outerTablCell,
+	.careerPage .careerSecondSec .middleTablCell{display: block;position: relative;}
+	.careerPage .careerSecondSec .txtLdrInfo{top:0;position: relative;bottom: 0;margin-top: 30px;}
+	.careerPage .careerThirdSec .subHeadTitle{margin-top: 50px; font-size: 1.7em;}
+	.careerPage .careerSecondSec .blockTitle{ font-size: 1.9em;}
+	.careerPage .careerSecondSec .blockText,
+	.careerPage .careerFirstSec .blockText,
+	.careerPage .careerSixthSec .caption{ font-size: 1.1em;}
+	.careerPage .careerFiftCont .blockText{font-size: 1.2em;}
+	.careerPage .careerFirstSec .txtLdrInfo{margin-bottom: 15px;    font-size: 2.8em;}
+	.careerPage .careerFiftCont .subHeadTitle{margin-top: 20px;}
+	.careerPage .careerSixthSec .carSecImg{width:40%;margin: 0 auto 30px;}
+	.careerPage .careerSevenSec{ height: 426px;    background-position: 60% 100%;}
+	.careerPage .careerEightSec .carSecImg{width: 20%;margin-top: 20px;}
+	.careerPage .careerFormCont{padding: 20px 5% 0}
+	.careerPage .careerFourthSec .blockText{font-size: 2.2em}
+	.careerPage .careerFourthSec{height: 500px;}
+	.footer .socialList li{margin: 0; width: 50px;   height: 50px; line-height: 50px;}
+	.history .historyView{top:12%}
+	.history .historyList{width: 100%}
+
+	.leadership_slider .owl-nav button.owl-prev{left: 0; color:#ffffff;}
+	.leadership_slider .owl-nav button.owl-next{right: -1%; color:#ffffff;}
+
+	/*Contact US*/
+	.contactSecondUl .contactSecondLi{ display: block; width: 100%; border-bottom:1px solid #dddddd; border-top:1px solid #ffffff;}
+		/*community*/
+		.communityPage .communityContainer .item_title{font-size: 2em;    margin-bottom: 5px;}
+		.communityPage .blockTitle{margin-bottom: 5px}
+		.communityPage .h2_title{font-size: 1.9em;    font-family: 'manrope-bold', sans-serif;}
+		.communityPage .txtBusSlide{padding-top: 0}
+		.communityPage .blockText { font-size: 1.1em; }
+		.communityPage .communityContainer .absolContainer{bottom:5%;}
+		.communityPage .communityContainer .caption {
+    width: 73%; }
+		.communityPage .communityFiveSec .colFifthCont { padding: 5% 3% 0;}
+		.communityPage .buildingSlider .h2_caption_text{font-size: 2em}
+		.communityPage .buildingSlider.commonSlider .caption{top:34%;}
+		.communityPage .commonSlider .owl-nav .owl-prev,
+		.communityPage .commonSlider .owl-nav .owl-next {
+    font-size: 2em; }
+		/* .communityPage .communityEightSec .buildingSlider.commonSlider .caption{top:6%} */
+		.communityPage .commonSlider .owl-nav .owl-prev{left:-10px}
+		.communityPage .commonSlider .owl-nav .owl-next{right:-10px}
+		.about .communitySevenSec .h2_title{font-size: 2.5em}
+		/*Brand*/
+		.brandSection .brandAbout .blockTitle{font-size: 2em}
+		.brandSection .brandAbout .blockText{text-align: left}
+		.brandSection .brandAbout .blockValues{width: 100%;padding: 4% 5% 9%;top:-5em}
+
+		.brandViewWebBtn{ width: 30%;margin: 5px 15px}
+		/*about us*/
+		.about .years span{top:5px !important;}
+		.about .years span.endDot{top:-6px !important}
+		.about .core_values .item .overlay-value{padding-top: 37%}
+		.about .text-top{margin-top: 0 !important;}
+		.about .aboutContainer .container{top:15%;}
+		.groupInfo_slider .owl-nav{top:27%;font-size: 3rem}
+		.about .awards_slider .owl-nav{top:27% !important}
+		.blockContainer .subHeadTitle{font-size: 1.5rem}
+		.groupInfo_slider .item-text{font-size: 1rem}
+		.about .core_values .owl-dots{margin-bottom: 2% !important}
+		.about #seventh{padding-bottom: 15% !important }
+		.about .awards_slider .awards-item .rightSlider .bulletVScroll {height: 260px;}
+
+		
+		.about .coreValues{padding-bottom: 15% !important;}
+
+			.investor .investorContainer .absolContainer{bottom: 10% !important}
+			.investor .investorContainer .caption{width: 55% !important; margin-left: 5%}
+			.investor .investorContainer .item_title{font-size: 1.2em !important}
+			.investor .investorContainer .glowLightFirst{bottom: -15% !important}
+			.careerPage .careerSecondSec .specificScreen{display: block;}
+			.careerPage .careerSecondSec{padding-bottom: 0 !important;background-image:none}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+	body{font-size: 11px;}
+	.push-toright{left: -80%;}
+	.pushright-open{right: 0% !important;}
+	.btn-more{font-size: 1em;}
+	.video-carousel .owl-carousel .item-video{height: 250px;}
+	.owl-carousel .owl-video-play-icon{height: 50px;width: 50px;left: 55%;top: 55%;background-size: cover;}
+	.video-carousel .fa{font-size: 30px;}
+	.video-carousel .owl-next{right: -7%;}
+	.video-carousel .owl-prev{left: -7%;}
+	.highLgthCont .pictureGroup{margin-top: 8%;}
+	.highLgthCont .companyBlockHistory{top: -12%;font-size: 1.3em;}
+	.footer .socialList li{width: 40px;height: 40px;line-height: 40px;}
+	.footer .socialList li a{font-size: 1.2em;}
+	.footer .rpsg_text{width: 175px;}
+
+	.leadership_slider .owl-nav button.owl-prev{left: 2%; color:#ffffff;}
+	.leadership_slider .owl-nav button.owl-next{right: -3%; color:#ffffff;}
+		.navbar-collapse.collapse {
+	    display: none !important;
+	}
+	/* .wrapper .container{width: 100%;} */
+	.customMenu .customMenuWrapper { width: 690px; }
+	/*Career*/
+
+	.careerPage .careerFirstSec .txtLdrInfo{font-size: 2.5em;}
+	.careerPage .careerFirstSec .blockText{font-size: 1.2em}
+	.careerPage .careerSecondSec .blockTitle,
+	.careerPage .careerSixthSec .subHeadTitle{font-size: 1.9em}
+	.careerPage .careerSecondSec .blockText{font-size: 1.3em}
+	.careerPage .careerFourthSec{height: 400px}
+	.careerPage .careerFiftCont .blockText,
+	.careerPage .careerSixthSec .caption{font-size: 1.2em}
+	.careerPage .careerSecondSec{ background-position: bottom;}
+	.careerPage .careerSevenSec .txtLdrInfo{font-size: 3.1em;}
+	.careerPage .careerSevenSec{ background-position: bottom; height: 60vh}
+
+	/*community*/
+	.communityPage .blockText { font-size: 1.4em; }
+	.communityPage .communityContainer .absolContainer{bottom:25%;}
+	.communityPage .commonSlider .owl-nav .owl-prev{left: -17px;}
+	.communityPage .commonSlider .owl-nav .owl-next{right: -17px;}
+	.communityPage .buildingSlider.commonSlider .owl-nav .owl-prev{left:2%}
+	.communityPage .buildingSlider.commonSlider .owl-nav .owl-next {right: 2%;}
+	/*Brand*/
+	.brandViewWebBtnArea { bottom: -15px; }
+	.brandInfoSlider .owl-nav{width:92% !important; top:40% !important}
+	.brandInfoSlider .blckSlidTitle { font-size: 1.9em !important; }
+
+
+	/*about us*/
+	.about .awards_slider .awards-item .rightSlider .bulletVScroll {height: 260px;}
+
+
+	.investor .investorContainer .absolContainer{bottom: 10% !important}
+	.investor .investorContainer .caption{width: 55% !important; margin-left: 5%}
+	.investor .investorContainer .item_title{font-size: 1.7em !important}
+	.investor .investorContainer .glowLightFirst{bottom: -10% !important}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px){
+	body{font-size: 13px;}
+	.btn-more{font-size: 1em;}
+	.highLgthCont .pictureGroup{margin-top: 8%;}
+	.highLgthCont .companyBlockHistory{top: -12%;font-size: 1.2em;}
+	/*Career*/
+	.careerPage .careerFirstSec .txtLdrInfo,
+	.careerPage .careerSevenSec .txtLdrInfo{font-size: 2.8em;}
+	.careerPage .careerFirstSec .blockText{font-size: 1.3em}
+
+	/* .careerPage .careerSecondSec{
+		background-position-x: 180px;
+		background-color: #fdc031;
+	} */
+
+	.careerPage .careerSecondSec .blockTitle,
+	.careerPage .careerSixthSec .subHeadTitle{font-size: 1.7em}
+	.careerPage .careerSecondSec .blockText{font-size: 1.1em}
+	.careerPage .careerFourthSec{height: 550px}
+	.careerPage .careerFiftCont .blockText,
+	.careerPage .careerSixthSec .caption{font-size: 1.2em}
+
+	/*Contact US*/
+	.contactSecondUl .contactSecondLi.careerli .contactUsIcon{margin-top: 0}
+	.communityPage .blockText { font-size: 1.4em; }
+	.communityPage .communityContainer .absolContainer{bottom:25%;}
+	.communityPage .commonSlider .owl-nav .owl-prev{left: -17px;}
+	.communityPage .commonSlider .owl-nav .owl-next{right: -17px;}
+	.communityPage .buildingSlider.commonSlider .owl-nav .owl-prev{left:2%}
+	.communityPage .buildingSlider.commonSlider .owl-nav .owl-next {right: 2%;}
+	/* about page*/
+	.about .awards{padding: 4% 0}
+
+	
+
+		.investor .investorContainer .absolContainer{bottom: 10% !important}
+		.investor .investorContainer .caption{width: 55% !important; margin-left: 5%}
+		.investor .investorContainer .item_title{font-size: 1.7em !important}
+		.investor .investorContainer .glowLightFirst{bottom: -10% !important}
+			/*Btand page*/
+		.brandInfoSlider .owl-nav{width:90%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1366px and 1439px) */
+@media only screen and (min-width: 1366px) and (max-width: 1439px){
+	/*Btand page*/
+	.brandInfoSlider .owl-nav{width:85%;}
+
+	.about .coreValList .corCnt{font-size: 12px}
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and 1919px) */
+@media only screen and (min-width: 1440px) and (max-width: 1919px){
+	body{font-size: 15px;}
+	.companyValues .text{line-height: 1.7;font-size: 1.2em;}
+	.video-carousel .owl-carousel .item-video{height: 378px;}
+	.highLgthCont .pictureGroup{margin-top: 8%;}
+	.highLgthCont .companyBlockHistory{width: 60%;top: -12%;font-size: 1.3em;}
+
+	.customMenuWrapper .customMenuLink,
+	.customMenuWrapper .customSubMenuLink{font-size: 0.9em}
+	.ldrshpBox span {font-size: 0.7em;}
+	/*Career*/
+	.careerPage .careerFirstSec .txtLdrInfo,
+	.careerPage .careerSevenSec .txtLdrInfo{font-size: 2.8em;}
+	.careerPage .careerFirstSec .blockText{font-size: 1.3em}
+	.careerPage .careerSecondSec .blockTitle,
+	.careerPage .careerSixthSec .subHeadTitle{font-size: 1.7em}
+	.careerPage .careerSecondSec .blockText{font-size: 1.1em}
+	.careerPage .careerFourthSec{height: 550px}
+	.careerPage .careerFiftCont .blockText,
+	.careerPage .careerSixthSec .caption{font-size: 1.2em}
+	/*community*/
+	.communityPage .commonSection{  padding: 4% 0;}
+	/*brand*/
+	.brandInfoSlider .owl-nav{width:92%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1920px and 2559px) */
+@media screen and (min-width: 1920px) and (max-width: 2559px){
+	body{font-size: 15px;}
+	.btn-more{font-size: 1em;}
+	.homeCompanyValue .blockValues{width: 80%;top: -9em;}
+	.companyValues .text{line-height: 1.7;font-size: 1.3em;}
+	.highLgthCont .pictureGroup{margin-top: 8%;}
+	.highLgthCont .companyBlockHistory{width: 50%;font-size: 1.4em;top: -12%;}
+	.video-carousel .owl-carousel .item-video{height: 378px;}
+	.history .historyList{width: 95%;}
+	.mapMarkers .map-contains{padding-top: 3em;}
+
+	.customMenuWrapper .customMenuLink,
+	.customMenuWrapper .customSubMenuLink{font-size: 0.9em}
+	.ldrshpBox span {font-size: 0.7em;}
+	/*Career*/
+	.careerPage .careerFirstSec .txtLdrInfo,
+	.careerPage .careerSevenSec .txtLdrInfo{font-size: 2.8em;}
+	.careerPage .careerFirstSec .blockText{font-size: 1.3em}
+	.careerPage .careerSecondSec .blockTitle,
+	.careerPage .careerSixthSec .subHeadTitle{font-size: 1.7em}
+	.careerPage .careerSecondSec .blockText{font-size: 1.1em}
+	.careerPage .careerFourthSec{height: 550px}
+	.careerPage .careerFiftCont .blockText,
+	.careerPage .careerSixthSec .caption{font-size: 1.2em}
+
+	/*Contact Us*/
+
+	.communityPage .commonSection{  padding: 2% 0 !important;}
+	.contactPage .contactContainer .item_title{font-size: 3.5em;}
+	.contactSecondUl .contactSecondLi{padding: 7% 0 7% 12%;}
+
+	/*Btand page*/
+	.brandInfoSlider .owl-nav{top:43%;width:87%;}
+
+	/*Investor*/
+}
+
+/* Extra large devices (large laptops and desktops, 2560px and 4000px) */
+@media screen and (min-width: 2560px) and (max-width: 4000px){
+	/* .container{max-width: 1920;width: 1920px;} */
+	body{font-size: 18px;}
+	.homeCompanyValue .blockValues{width: 90%}
+	.customMenuWrapper .customMenuLink, .customMenuWrapper .customSubMenuLink{font-size:0.8em}
+	.blockValues{width: 50%;}
+	.companyValues .text{line-height: 1.7;font-size: 1.3em;}
+	.highLgthCont .highLgthBox{font-size: 2.5em;}
+	.highLgthCont .pictureGroup{margin-top: 8%;}
+	.highLgthCont .companyBlockHistory{width: 50%;font-size: 1.3em;top: -12%;}
+	.ldrshpContHeight{height: 610px;}
+	.ldrshpContHeight2{height: 300px;}
+	.imgCircle{width: 175px;}
+	.ldrshpBox .titleHead{font-size: 1.3em;margin-top: 23px;}
+	.contArea{height: 265px;}
+	.video-carousel .owl-carousel .item-video{height: 500px;}
+	.mapMarkers .map-contains{padding-top: 2em;}
+	.mapMarkers .map-contains .mainHeadTitle{font-size: 4em;}
+	.mapMarkers .maplistUl .maplistLi .mapHead{font-size: 2.2em;}
+	.history .historyList{width: 100%;}
+	.history .historyList li .text{font-size: 1.3em;}
+	.socialMedia,.highLgthCont{padding: 3% 0}
+	.buildingSection p.blockText{font-size: 1.4rem;margin: 50px 0;}
+	.ldrshpBox span {font-size: 0.7em;}
+	/*Career*/
+	.careerPage .careerFirstSec .txtLdrInfo,
+	.careerPage .careerSevenSec .txtLdrInfo{font-size: 2.8em;}
+	.careerPage .careerFirstSec .blockText{font-size: 1.3em}
+	.careerPage .careerSecondSec .blockTitle,
+	.careerPage .careerSixthSec .subHeadTitle{font-size: 1.7em}
+	.careerPage .careerSecondSec .blockText{font-size: 1.1em}
+	.careerPage .careerFourthSec{height: 550px}
+	.careerPage .careerFiftCont .blockText,
+	.careerPage .careerSixthSec .caption{font-size: 1.2em}
+
+	/*Community*/
+	.communityPage .commonSection{  padding: 4% 0;}
+	.communityPage .communityFiveSec .colFifthCont { padding-top: 17%}
+	.communityPage .blockText{font-size: 1.1em;}
+
+	/*about*/
+	.about #seventh{padding: 5%}
+	.groupInfo_slider .owl-nav{top:35%}
+
+	/*investor*/
+	.investor .investorContainer .caption{width: 75%}
+	.investor .investorContainer .glowLightFirst{bottom: -4%}
+	.investor .investors_section .inner_head{font-size: 2rem}
+	/*Btand page*/
+	.brandInfoSlider .owl-nav{top:45%;width:92%;}
+}
+
+/*common responsive*/
+@media screen and (min-width: 320px) and (max-width: 1024px){
+	.container{ max-width: 100%;}
+	.customMenu{background: #000000 !important}
+	.mainContainer{margin-top: 65px;}
+	.brandFooter{width: 95%}
+	.mobile_menu_inner .customMenu_nav .customMenuLink.active{background: none;color: #FF0000;}
+	#backBtnLnk,
+	.customMenuLink .caret{display: block;}
+	.customMenuLink .caret{display: inline-block;}
+	.customMenu .mobile_menu_inner{float: none;}
+	.customMenu .mobile_menu_inner .customSubMenuFull,
+	.customMenu .mobile_menu_inner .customMenuItem{
+	    float: none;
+			width: auto;
+	}
+	#openInMob .customSubMenuFull{
+		padding: 5px 15px;
+		border-top: 1px solid #7b7a7a;
+	}
+	#openInMob .customSubMenuFull a{
+		color: #353030;
+	}
+	.customMenuLink .caret{
+    float: right;
+    position: relative;
+    top: 7px;
+	}
+	.mobile_menu_inner .customMenu_nav .customMenuItem{padding: 0;}
+	/*Mobile Menu*/
+	.mobile_menu_inner .customMenu_nav{margin: 0;float: none;}
+	.mobile_menu_inner .customMenu_nav .customMenuItem{font-size: 1.4em;padding: 0.3em 1em;border-bottom: 1px solid #848484;}
+	.mobile_menu_inner .customMenu_nav .customMenuLink{
+		color: rgba(255,255,255,0.6);
+		line-height: 1.4 !important;
+		font-family: 'manrope-light', sans-serif;
+		font-weight: normal;
+		text-transform: inherit;
+	}
+	#openInMob .customSubMenuBarBusiness_js{background: #a7a7a7;}
+	.navbar-default .navbar-toggle{background:#FF0000;border: 1px solid #716F6F;display: block !important;float: right;margin: 15px 8px;}
+	.customMenu .customToggle .icon-bar { background: #000000; }
+	.customMenuHead{float: none;}
+	.customMenu .customMenuBar{width: 100%;}
+	/*About*/
+	/*
+	.about .aboutContainer .caption{
+	    width: 100%;
+	    top: 0;
+	    position: relative;
+	    left: 0;
+	    background-color: rgba(27,27,27,1);
+	    border-radius: 0;
+	    text-align: center;
+	} */
+	.about .years span{top:4px;}
+	.about .years span.endDot{top:-6px}
+	.about .aboutContainer .container{padding: 0;}
+	.about .aboutContainer .item_title{font-size: 2em;margin-bottom: 8px;}
+	.about .companylegacy_leftside_block:after{left: 27%;}
+	.about .years{height: 68px;}
+	.about .years a{margin-bottom: 10px;}
+	.about .horiCoreCont{width: 250px;height: 250px;}
+	.about .coreValues{padding-top: 0;}
+	.about .core_values .item img{height: 250px;}
+	.about .core_values .item{margin-bottom: 4%;}
+	.about .core_values .owl-dots{margin: 2% 0 12%;}
+	.about .text-bottom{font-size: 1.4em;}
+	.about #seventh{padding: 8% 0;}
+	.about .text-top{margin-top: 15%}
+	.groupInfo_slider .item-text{width: 90%;}
+	.groupInfo_slider .owl-prev, .groupInfo_slider .owl-next{top: 35%;}
+	.groupInfo_slider .owl-prev{left: -5%;}
+	.groupInfo_slider .owl-next{right: -5%;}
+	.about .overlay_blue_awards{height: 500px;width: 100%;left: 0;}
+	.about .overlay_blue_awards .subHeadTitle{margin-top: 20px;}
+	.about .awards_slider{position: relative;}
+	.about .awards_slider .owl-nav{bottom: 57%;width: 84%;right: 0;}
+	.awards_slider .owl-nav button.owl-prev{position: absolute;left: -11%;}
+	.awards_slider .owl-nav button.owl-next{position: absolute;right: -11%;}
+	.about .awards_slider .owl-nav .fa{background-color: transparent;padding: 0;}
+	.about .awards_slider .owl-prev:hover .fa, .about .awards_slider .owl-next:hover .fa{background-color: transparent;padding: 0;}
+	.about .awards_slider .awards-item .rightSlider{font-size: 1.2em;padding: 15px;}
+	.about .companyinfo .leftside{padding: 0em 2em;}
+	.about .companyinfo .leftside .subHeadTitle{font-size: 7em;margin-bottom: 2%;}
+	.about .companyinfo .leftside p{font-size: 1.2em;text-align: justify;margin-bottom: 5%;}
+	.about .logo-transform{margin-top: 6%;margin-bottom: 5%;}
+	.about .blockValues{width: 100%;padding: 1em;text-align: center;}
+	.about .rightSideValue .subTitle{text-align: center;}
+	/*Business*/
+	.firstSlideMenu{width: 25%;float: left; padding: 20px 5px;}
+	.businessSection .firstSlideMenuLink{width: 100%}
+	.businessSection .businessfirstSlideHoverImg {
+	    height: 80px;
+	    line-height: 74px;
+	    width: 80px;
+	}
+
+	.businessSection .carosel_busiSlider .item{text-align: center;}
+	.businessSection .businessSlide .availBusText,
+	.businessSection .businessSlide .availBusSlide{float: none !important; width: 100%}
+	.businessSection .businessSlide .availBusSlide{width: inherit; width: 100%;}
+	.businessSection .section{height: auto;}
+	.businessSection .outerTablCell{position: relative;display: block}
+	.businessSection .middleTablCell{display: block; margin: 5% 0;}
+	/*brand*/
+	.brandSection .brandLogoSec .blockTitle{top:0;display: block;}
+	.brandSection .about-image{float: none !important;text-align: center;margin-top: 10px;}
+	.brandSection .aboutSaregama .blockValues{width: 100%;top:1em;}
+	.brandInfoSlider .owl-nav,
+	.brandInfoSlider .owl-stage-outer{width: 100%;margin: 0 auto;}
+	/* .brandInfoSlider .sliderContent{top:42%} */
+	.brandInfoSlider .owl-nav{top:22%}
+	.brandInfoSlider .owl-nav .fa { font-size: 3em; }
+	.brandInfoSlider .blckSlidTitle { font-size: 1.4em; }
+	.brandSection .brandLogoSec{top:0; padding: 40px 0 20px;}
+	.brandLogoImg img{height: 80px}
+	.brandSection .about-content{padding-top: 0}
+	.brandSection .about-content .text{text-align: center;}
+	.brandSection .about-content .text img{width: 40%;}
+	.brandSection .brandFirstSection .compInfoTitl, .brandSection .aboutSaregama .blockTitle{font-size: 1.8em;margin-bottom: 15px;}
+	.brandFullSlider{margin-top: 4em;}
+
+	/*investor*/
+	.infinite img{width: 90%;margin: 0 auto;text-align: center;}
+	.investor .investorContainer .absolContainer{bottom: 5%}
+	.investor .investorContainer .item_title{font-size: 1em}
+	.investor .investors_section .inner_text{font-size: 0.9em}
+	.investor .investors_section .inner_head{font-size: 2em;line-height:1.3}
+	.years-carousel{width: 100%}
+	.investor .investorContainer .caption{width:100%;}
+	.investor .company_section_left img{width: 80%;margin-bottom: 10%;}
+	.investor .company_section_right{text-align: center;}
+	.investor .group_investor .innerBlock{margin: 20px 0}
+	.investor .company_features_list .company_features_list_inner{width: 30%;padding: 5px;}
+	.investor .company_features_list .company_features_list_inner img{width: 50px;}
+	.investor #fifth{ padding-bottom: 5%;}
+	.investor .views_section .caption{
+	    position: relative;
+	    left: 5%;
+	    width: 90%;
+	    margin: 130px auto 0;
+	    float: left;
+	}
+	.investor .views_section .inner_head{font-size: 2em;}
+	.investor .views_section .inner_text{font-size: 1em;}
+	.investor .views_section .caption:before{font-size: 10em;top: -30%;left: -13%;}
+	.investor .views_section .caption:after{font-size: 10em;right: -10%;}
+	/*Media Page*/
+	.mediaPage .mediaContainer .item_title{font-size: 1em; text-align:left;margin-left:10px;}
+	.mediaPage .boxNewsArea{height: auto;}
+	.mediaPage .imgContLeftNws .colAreaTxt,
+	.mediaPage .imgContRightNws .colAreaTxt{border: 0;}
+	.mediaPage .imgContLeftNws .colAreaTxt:after,
+	.mediaPage .imgContRightNws .colAreaTxt:after{display: none;}
+	.mediaPage .contNewsBox .blockTitle, .mediaPage .colAreaTxt .blockTitle{font-size: 1em}
+	.mediaPage .contNewsBox .blockText,
+	.mediaPage .linkOutNews{font-size: 0.8em}
+	.mediaPage .moreMedBox{width: 48%;height: 100%}
+	/*Leadership*/
+	.leadershipPage .leadershipOne{background-position: 30%;}
+	.leadershipPage .leadershipTwo{background-position: 80%;}
+	.availBusText{padding: 0;margin-top: 50%;}
+	.leadershipPage .blockTitle{font-size: 2em;}
+	.leadershipPage .blockTitle small{font-size: 14px;}
+	.leadershipPage .blockText{font-size: 1em;}
+	.leadershipModal .popuptitle{font-size: 2em;}
+	.leadershipModal .content-text{font-size: 1em;margin-bottom: 15px;}
+	.brandFooter .footer_col_second .text img{}
+	.brandFooter .footer_col .text { padding-left: 0; }
+	.brandFooter .socialList li{margin-right: 5px;}
+	.brandFooter .socialList{float: right;}
+	.brandFooter .footer_col{margin-top: 0;}
+	.businessSection .logoSlide .owl-item a {text-align: center;display: block;}
+	.businessSection .logoSlide .owl-item a img{margin:0  auto;}
+	.businessSection .iconBusSlide img { height: 30px; }
+	.businessSection .txtBusSlide {
+	    border-left: 2px solid #25b5e9;
+	    margin-left: 10px;
+	    padding-left: 10px;
+	    width: 100%;
+	}
+	.businessSection .txtBusSlideArea {
+	    float: left;
+	    width: 99%;
+	}
+	.careerPage .modal-dialog{width: 60%}
+	.homeCompanyValue .rightSideValue {
+	    position: relative;
+	    right: 0;
+	    bottom: 0;
+	    padding: 0;
+	}
+	.homeCompanyValue .blockValues{padding-bottom: 0}
+	.brandFooter .footer_col_second{     border-right: 0;   border-bottom: 1px solid #bdb3b3;text-align: center;padding-right: 0;}
+	.brandFooter{padding-bottom: 1em}
+	.brandFooter .socialList{padding-top: 30px;margin-top: 0;border-top: 0;text-align: center;}
+	.brandFooter .socialList li i{font-size: 1em}
+	.communityPage .buildingSlider.commonSlider .caption{width: 90%;}
+	.contactPage .introSlider .blockContainer{height: auto;}
+
+	.homepage .charimanMessage .leftSideValue{padding: 0;}
+	.homepage .blockContainer .blockBtn{ 	margin: 20px 0; }
+	.ldrshpBoxFirst{padding-left: 0; padding-right: 0;}
+
+	.brandFooter .socialList{padding: 10px 0 !important;}
+	.socialListBrand{margin: 5px 0;padding:  0; border-bottom: 1px solid #e6e3e3}
+	.socialListBrand .footer_col_second{ border-bottom: 1px solid #e6e3e3}
+	.brandFooter .socialList li i{font-size: 2.5em}
+	.footer.brandFooter .socialList li a{font-size: 1em}
+	.brandFooter .socialList{float: none;}
+	.brandFooter .socialList li{width: 20%; float: left;margin-right:0 !important;height: 33px!important; line-height: 33px !important}
+	.mediaPage .imageArea{background-image: none !important;text-align: center;}
+	.mediaPage .imageArea img{max-width: 100% !important; width: auto !important;height: auto !important;margin: 0 auto;display: block;}
+	.mediaPage .contNewsBox{text-align: center;}
+	.brandSection .padRght0{padding-left: 0;}
+	.brandSection .padLft0{padding-left: 15px;}
+	.brandSection .brandFirstSection .container{overflow: hidden;}
+	.brandSection .brandGradBox{border-radius: 0;}
+	.homepage .charimanMessage .blockValues{overflow: inherit;}
+	.brandSection .brandFirstSection{padding: 7% 2%}
+	.brandSection section{
+		min-height: 30px
+	}
+	.brandSection .brandFirstSection{
+		min-height: 300px
+	}
+	.groupInfo_slider .owl-prev, .groupInfo_slider .owl-next{  top: 25%;}
+	.groupInfo_slider .owl-prev{left: -6%;}
+	.groupInfo_slider .owl-next{right:-6%}
+
+	#videoModalCenter{
+	    top: 35% !important;
+	}
+	.videoBoxIframeModal{padding: 0; height: auto}
+	.videoBoxIframeModal iframe, .videoBoxIframeModal video{position: relative;height: 250px}
+}
+/*commone responsive*/
